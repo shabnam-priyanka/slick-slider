@@ -26,4 +26,15 @@ $(document).ready(function () {
     cssEase: "linear",
     dots: true,
   });
+
+  // slider 3
+  $(".slider-3").slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true,
+    speed: 500,
+    dots: true,
+  });
 });
